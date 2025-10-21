@@ -1,4 +1,15 @@
 function fullfig = makecombosweeps(lookuptab)
+% MAKECOMBOSWEEPS generates heatmaps of heatmap of kpoly ratios for a fictitious formin
+% construct swept across PRM location (NT and CT dist) for 3 overall parameter regimes.
+    % 
+    % Makes heatmaps using r_cap=10^4 and r_cap_exp=0.8, plus the following 
+    % 3 capture and delivery rate constant combinations:
+    %
+    %   1) k_cap=1; k_del=10^5
+    %   2) k_cap=1.5x10^4; k_del=1
+    %   3) k_cap=10^9; k_del=1
+    %
+    % See also KPOLYHEATMAP.
 
     fullfig = figure('units','centimeters','position',[0,5,55,18]);hold on;
     tiles = tiledlayout(1,3,'TileSpacing','tight','Padding','none');

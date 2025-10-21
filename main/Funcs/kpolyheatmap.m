@@ -72,7 +72,7 @@ PRM_lab=strcat("PRM size: ",num2str(PRM_size));
 yvals=1:300;
 xvals=1:300;
 
-LMAX=200;
+LMAX=600;
 
 kpolyratios=zeros(length(yvals)*length(xvals),1);
 yvals_matrix=kpolyratios;

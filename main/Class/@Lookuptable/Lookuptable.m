@@ -8,8 +8,9 @@ classdef Lookuptable <handle
     %               fields full of N struct objects to be added to the
     %               lookuptable; struct should be created from
     %               makeLookupMat and reading in polymer-c outputs
-    % 
-    % See also MAKELOOKUPMAT. 
+    %
+    %   Note: without access to the polymer-c repo, output .mat files must
+    %   be provided.
 
     properties (GetAccess=public, SetAccess=protected)
         single % struct with structs for single filament simulations
