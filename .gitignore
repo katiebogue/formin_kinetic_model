@@ -32,3 +32,5 @@ codegen/
 # Cloud based storage dotfile
 .MATLABDriveTag
 .Rproj.user
+
+.DS_Store
