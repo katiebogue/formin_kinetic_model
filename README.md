@@ -14,7 +14,7 @@ Contains code to compute polymerization rates for binding sites (PRMs) on FH1 do
 #### Set-up
 
 1. Clone this repository to your machine
-2. Install MATLAB (The MathWorks, Inc.) if not already installed
+2. Install MATLAB (The MathWorks, Inc.) if not already installed (tested on R2024a on MacOS)
 
 #### Generating Example plots
 
